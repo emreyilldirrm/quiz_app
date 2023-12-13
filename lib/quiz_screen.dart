@@ -107,23 +107,23 @@ class _quize_screenState extends State<quize_screen> {
               Image.asset("image/${bayrak_resim_adi}"),
 
               TextButton(onPressed: () {
-                question_counter_check();
                 Is_it_true_or_not(AbuttonText);
+                question_counter_check();
                 }, child: Text(AbuttonText)),
 
               TextButton(onPressed: () {
-                question_counter_check();
                 Is_it_true_or_not(BbuttonText);
+                question_counter_check();
               }, child: Text(BbuttonText)),
 
               TextButton(onPressed: () {
-                question_counter_check();
                 Is_it_true_or_not(CbuttonText);
+                question_counter_check();
               }, child: Text(CbuttonText)),
 
               TextButton(onPressed: () {
-                question_counter_check();
                 Is_it_true_or_not(DbuttonText);
+                question_counter_check(); 
               }
               , child: Text(DbuttonText))
 
