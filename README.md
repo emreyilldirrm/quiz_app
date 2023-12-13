@@ -1,16 +1,16 @@
-# quiz_app
+# Flutter Flag Quiz Application
 
-A new Flutter project.
+This Flutter application includes a quiz game related to flags. The app stores flag names and image names using an SQLite database and prompts users with questions.
 
-## Getting Started
+![q1](https://github.com/emreyilldirrm/quiz_app/assets/149498114/9f0f7e54-d01c-4e19-86ed-121dcc1be265)
+![q5](https://github.com/emreyilldirrm/quiz_app/assets/149498114/b8cdfecb-ce90-49ea-ba02-56838727f16a)
+![q4](https://github.com/emreyilldirrm/quiz_app/assets/149498114/109b23d1-e611-41c7-b904-f2ae9dd8cb7b)
+![q3](https://github.com/emreyilldirrm/quiz_app/assets/149498114/3f79c1e4-766c-4e30-939a-b7f68d388746)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Used Packages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The application includes the following Flutter packages:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **sqflite**: Used for SQLite database operations.
+- **path_provider**: Used to find the application directory.
